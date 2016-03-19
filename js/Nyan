@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+'use sctrict'
+var c = require("skilstak-colors");
+
+while(true) {
+  process.stdout.write(c.multi("Nyan "));
+}
+  
